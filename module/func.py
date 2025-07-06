@@ -3,6 +3,16 @@ from Bio import SeqIO
 import pandas as pd
 import subprocess
 
+__all__ = ['fetch_ncbi_ids',
+         'fetch_ncbi_seqs',
+         'csv2fasta',
+         'filter_seqs',
+         'count_seqs',
+         'merge_fasta_files',
+         'run_cdhit',
+         'all2three',
+         'run_cdhit2d']
+
 def fetch_ncbi_ids(email, term, filename, db="protein", retmax=100):
     """
     從NCBI的蛋白質數據庫中查詢符合條件的蛋白質ID，並將其寫入檔案。
@@ -74,7 +84,7 @@ def fetch_ncbi_seqs(email, id_file, output_file, retmax=100):
             print(f"Records {start + 1} to {start + len(batch_ids)} downloaded.")
 
 
-def pdb_csv2fasta(csv_file, fasta_file):
+def csv2fasta(csv_file, fasta_file):
     """
     將CSV檔案中的PDB序列轉換為FASTA格式並寫入檔案。
 
