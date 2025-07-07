@@ -1,9 +1,9 @@
-from module import *
+from func import *
 
 email = "ruby2015095231128@gmail.com"
 term = "alkaliphilic"
-idlist  = "./positive_data/ncbi/ncbi_idlist.txt"
-fasta_file = "./positive_data/ncbi/ncbi_seqs.fasta"
+idlist  = "./positive_data/ncbi/ncbi_pos_idlist.txt"
+fasta_file = "./positive_data/ncbi/ncbi_pos_seqs.fasta"
 
 # fetch_ncbi_ids(email, 
 #                term,
