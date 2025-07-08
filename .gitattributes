@@ -1,3 +1,5 @@
 positive_data/ncbi/ncbi_pos_seqs.fasta filter=lfs diff=lfs merge=lfs -text
 positive_data/uniprot/uniprot_pos_seqs.fasta[[:space:]] filter=lfs diff=lfs merge=lfs -text
 positive_data/uniprot/uniprot_pos_seqs.fasta filter=lfs diff=lfs merge=lfs -text
+positive_data/ncbi/ncbi_pos.fasta filter=lfs diff=lfs merge=lfs -text
+positive_data/uniprot/uniprot_pos.fasta filter=lfs diff=lfs merge=lfs -text
