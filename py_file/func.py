@@ -131,8 +131,7 @@ def filter_seqs(input_file, output_file, min_length=100, ambiguous_residues=None
                 SeqIO.write(record, output_fasta, 'fasta')
                 sequence_count += 1
 
-    print(f"過濾完成，結果已寫入 {output_file}")
-    print(f"{output_file} 有 {sequence_count} 筆序列資料。")
+    print(f"The output file {output_file} has {sequence_count} sequences.\n")
 
 
 def count_seqs(fasta_file):
