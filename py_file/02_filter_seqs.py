@@ -1,12 +1,12 @@
 from func import *
 
-input_fasta = ['./positive_data/ncbi/ncbi_pos.fasta',
-               './positive_data/pdb/pdb_pos.fasta',
-               './positive_data/uniprot/uniprot_pos.fasta']
+input_fasta = ['./negative_data/ncbi/ncbi_neg.fasta',
+               './negative_data/pdb/pdb_neg.fasta',
+               './negative_data/uniprot/uniprot_neg.fasta']
 
-output_fasta = ['./positive_data/ncbi/ncbi_pos_filtered.fasta',
-                './positive_data/pdb/pdb_pos_filtered.fasta',
-                './positive_data/uniprot/uniprot_pos_filtered.fasta']
+output_fasta = ['./negative_data/ncbi/ncbi_neg_filtered.fasta',
+                './negative_data/pdb/pdb_neg_filtered.fasta',
+                './negative_data/uniprot/uniprot_neg_filtered.fasta']
 
 
 for i in range( len(input_fasta) ):
