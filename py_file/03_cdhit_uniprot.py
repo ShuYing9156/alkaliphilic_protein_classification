@@ -1,8 +1,8 @@
 from func import *
 
 exe = './cd-hit-v4.8.1-2019-0228/cd-hit'
-input = './positive_data/uniprot/uniprot_pos_filtered.fasta'
-output = './positive_data/uniprot/uniprot_pos_fil_cdhit40.fasta'
+input = './negative_data/uniprot/uniprot_neg_filtered.fasta'
+output = './negative_data/uniprot/uniprot_neg_fil_cdhit40.fasta'
 identity = 0.4
 word_size = 2
 threads = 23
