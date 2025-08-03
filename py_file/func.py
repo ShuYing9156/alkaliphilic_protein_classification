@@ -3,15 +3,6 @@ from Bio import SeqIO
 import pandas as pd
 import subprocess
 
-__all__ = ['fetch_ncbi_ids',
-         'fetch_ncbi_seqs',
-         'csv2fasta',
-         'filter_seqs',
-         'count_seqs',
-         'merge_fasta_files',
-         'run_cdhit',
-         'all2three',
-         'run_cdhit2d']
 
 def fetch_ncbi_ids(email, term, filename, db="protein", retmax=100):
     """
@@ -208,7 +199,7 @@ def run_cdhit(executable, input_file, output_file, identity, word_size, threads=
         print(f"CD-HIT 執行失敗: {e}")
 
 
-def all2three(all_fasta_file, original_files, output_files):
+def split_dataset(all_fasta_file, original_files, output_files):
     """
     根據給定的序列 ID 過濾序列，並將其寫入不同的 FASTA 檔案。
 
