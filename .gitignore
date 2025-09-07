@@ -6,3 +6,4 @@ alkaliphilic_protein_classification.code-workspace
 /negative_data/pdb/pdb_neg_filtered.fasta
 /negative_data/cdhit2d/neg_ncbifil_pdbfil.fasta
 /alkaliSplitNoFragment.csv
+gpt_neg/
