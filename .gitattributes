@@ -8,3 +8,10 @@ positive_data/uniprot/uniprot_pos_filtered.fasta filter=lfs diff=lfs merge=lfs -
 negative_data/pdb/pdb_neg.fasta filter=lfs diff=lfs merge=lfs -text
 negative_data/ncbi/ncbi_uniprot_cdhit2d40.fasta filter=lfs diff=lfs merge=lfs -text
 positive_data/cdhit2d/pos_ncbifil_pdbfil.fasta filter=lfs diff=lfs merge=lfs -text
+negative_data/pdb/negative_pdb_filtered.fasta filter=lfs diff=lfs merge=lfs -text
+positive_data/ncbi/positive_ncbi.fasta filter=lfs diff=lfs merge=lfs -text
+positive_data/ncbiANDpdb/positive_ncbiANDpdb.fasta filter=lfs diff=lfs merge=lfs -text
+positive_data/ncbi/positive_ncbi_filtered.fasta filter=lfs diff=lfs merge=lfs -text
+positive_data/uniprot/positive_uniprot.fasta filter=lfs diff=lfs merge=lfs -text
+positive_data/uniprot/positive_uniprot_filtered.fasta filter=lfs diff=lfs merge=lfs -text
+negative_data/pdb/negative_pdb.fasta filter=lfs diff=lfs merge=lfs -text
