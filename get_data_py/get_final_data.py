@@ -2,11 +2,11 @@ import sys
 import os
 import subprocess
 
-sys.path.append(
-    os.path.abspath(
-        os.path.join( os.path.dirname(__file__), '..' )
-    )
-)
+# sys.path.append(
+#     os.path.abspath(
+#         os.path.join( os.path.dirname(__file__), '..' )
+#     )
+# )
 
 from DataPreprocessingClasses.FastaProcessor import FastaProcessor
 
